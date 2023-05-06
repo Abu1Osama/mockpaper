@@ -9,7 +9,7 @@ const orderSchema = mongoose.Schema(
     versionkey: false,
   }
 );
-const orderModel = mongoose.model("user", orderSchema);
+const orderModel = mongoose.model("order", orderSchema);
 module.exports = {
   orderModel,
 };
